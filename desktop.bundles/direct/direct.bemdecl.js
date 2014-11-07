@@ -13,6 +13,7 @@ exports.blocks = [
     },
     { name: 'ua' },
     { name: 'i-model' },
+    { name: 'b-model' },
     { name: 'banner' },
     { name: 'phrase' },
     { name: 'b-page' },

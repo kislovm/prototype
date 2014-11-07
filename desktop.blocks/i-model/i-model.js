@@ -8,7 +8,7 @@ modules.define(
     ['i-bem__dom'],
     function(provide, BEMDOM) {
 
-provide(BEMDOM.decl('i-model', {
+provide(BEMDOM.decl(this.name, {
 
     onSetMod: {
         js: {

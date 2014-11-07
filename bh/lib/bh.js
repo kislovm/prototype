@@ -803,6 +803,8 @@ BH.prototype = {
 
                     !json.content && (json.content = json.model[json.field]);
 
+                    attrs['data-model-name'] = json.modelName;
+                    attrs['data-model-id'] = json.model.id;
                     attrs['data-field'] = json.field;
 
                     json.attrs = attrs;
